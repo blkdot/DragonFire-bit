@@ -1,0 +1,841 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="DragonFire, busd, token, finance, crypto, farm, yieldfarm, yield, blockchain, bsc, bitcoin, bit, ethereum, money">
+        <meta name="author" content="FireCrypto">
+        <meta name="description" content="The DragonFire Token aims to create sustainable income before the long term accessible to all investors. You can find us in the channels mentioned below">
+        <meta property="og:title" content="DragonFire">
+        <meta property="og:site_name" content="DragonFire">
+        <meta property="og:url" content="https://DragonFire.finance">
+        <meta property="og:description" content="The DragonFire Token aims to create sustainable income before the long term accessible to all investors. You can find us in the channels mentioned below">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://www.DragonFire.finance/assets/icons/">
+        <title>DragonFire</title>
+        <!-- icons -->
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="assets/icons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/icons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/icons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/icons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="assets/icons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+        <link rel="icon" href="assets/icons/favicon-32x32.png"/>
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100i,200,300,400,700,800,900" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <!-- Font Awesome -->
+        <script src="https://use.fontawesome.com/ba3f9c528b.js"></script> 
+        <!-- style CSS -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js" integrity="sha512-TW5s0IT/IppJtu76UbysrBH9Hy/5X41OTAbQuffZFU6lQ1rdcLHzpU5BzVvr/YFykoiMYZVWlr/PX1mDcfM9Qg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <style>
+            .uYscM{
+                z-index: 999 !important;
+            }
+        </style>
+    </head>
+
+    <body data-spy="scroll" data-offset="80">
+
+        <!-- loading -->
+        <div id="loading">
+            <div id="loading-center">
+                <div class='loader loader2'>
+                    <div>
+                        <div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- loading End -->
+
+        <!-- HEADER -->
+        <section class="first-screen">
+            <header class="py-2">
+                <nav class="navbar navbar-expand-lg mt-1">
+                    <a href="index.html#"><div class="logo"><img src="assets/icons/DragonFire-Header.png" width=200 heighth=212 alt="logo"/></div></a>
+                    <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon menu"></span>
+                    </button>
+                    <div class="collapse navbar-collapse alajem" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto text-center navMI">
+                            <li class="nav-item btnHeader">
+                                <button style="cursor: pointer;" type="button" id="contractLink" class="btnprimarySpe tel"><span>SmartContract</span></button>   
+                            </li>
+                            <li class="nav-item btnHeader">
+                                <a href="https://app.gitbook.com/s/DZQ3GAKnG9VvENqHj4Bu/"><button style="cursor: pointer;" type="button" class="btnprimarySpe tel"><span>WhitePaper</span></button></a>   
+                            </li>
+                            <li class="nav-item btnHeader">
+                                <a href="https://app.gitbook.com/s/DZQ3GAKnG9VvENqHj4Bu/"><button style="cursor: pointer;" type="button" class="btnprimarySpe tel"><span>Audit</span></button></a>   
+                            </li>
+                        </ul>
+                      <div class="navMI py-2">
+                        <button style="cursor: pointer;" type="button" class="btnprimarySpe connect mx-auto" id="connect-btn"><span>Connect +</span></button>
+                      </div>
+                    </div>
+                  </nav>
+            </header>        
+        </section>
+        <!-- FINE HEADER -->
+
+        <!-- banner -->
+        <div id="wave" class="iq-banner">
+            <div class="row banner-info Mcontainer mydiv">
+
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                    <h6><b>DragonFire PRICE :    <span id="token-priceM"><b>    0.00</b></span></b></h6>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                    <h6><b>TOTAL USER : <span id="totalUsers"><b>0.00</b></span></b></h6>
+                </div>
+                <div class="col-12">
+                    <hr class="my-4">
+                </div>    
+
+                <!-- MINT -->
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center mint">
+                    <h3 class="title-header mt-2">MINT DragonFire</h3>
+                    <div class="mycontainer2 mt-1">
+                        <p> Mint DragonFire by staking your BUSD (2 DragonFire a day for every 100 BUSD staked). You can stake as many time as you want but you cannot unstake your BUSD.
+                        </p>
+                        <hr>
+                        <div class="row">
+                            <div class="col-6 my-2">
+                                <b><h7>APR</h7></b>
+                            </div>
+                            <div class="col-6 my-2" id="APY_M">
+                                <span><b><h7>...</h7></b></span>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-6 my-2">
+                                <b><h7>Stake</h7></b>
+                            </div>
+                            <div class="col-6 my-2" id="user-BUSD-staked">
+                                <span><b><h7>...</h7></b></span>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-6 my-2">
+                                <b><h7>Staked</h7></b>
+                            </div>
+                            <div class="col-6 my-2" id="total-BUSD-staked">
+                                <span><b><h7>...</h7></b></span>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row my-3">
+                            <div class="col-12">
+                                <h5 class="mb-2">DragonFire Earned</h5>
+                            </div>
+                            <div class="col-12">
+                                <h5><span id="user-unClaimed-M"><b>...</b></span></h5>
+                            </div>
+                        </div>
+                        <hr style="background-image: linear-gradient(266.61deg, #121316 -1.47%, #c29436  46.7%, #121316 99.87%);">
+                        <div class="col-12 my-4">
+                            <button type="button" class="btn-secondary mx-auto" id="claimMButton">Claim</button>
+                        </div>
+                        <hr class="my-3" style="background-image: linear-gradient(266.61deg, #121316 -1.47%, #c29436  46.7%, #121316 99.87%);">
+                        <div class="row d-flex justify-content-center">
+                            <h5 class="mb-3 mt-2"><b>BUSD</b> Balance:<b> <span id="user-BUSD-balance-1"><b>...</b></span></b></h5>
+                            <div class="col-lg-12">Min. Investment 100 BUSD</div>
+                            <div class="col-12">
+                                <hr class="my-2">
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-2 col-sm-12"></div>
+                                <div class="col-lg-5 mt-3 d-flex justify-content-center">
+                                    <div class="deposit-block">
+                                        <div class="amount-field">
+                                            <input type="number" class="amount-input" value="1" min="0" id="input-approve"/>
+                                            <button class="amount-field-button" onclick="SetMaxBUSD1()">Max</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-sm-12 mt-3 d-flex justify-content-center mb-3">
+                                    <span><button type="button" class="btnprimary" id="approveButton" onclick="approveBUSD()">Approve</button></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-2 col-sm-12"></div>
+                                <div class="col-lg-5 mt-3 d-flex justify-content-center">
+                                    <div class="deposit-block">
+                                        <div class="amount-field">
+                                            <input type="number" class="amount-input" value="1" min="0" id="input-busd"/>
+                                            <span><button class="amount-field-button" id="maxAmountButton" onclick="SetMaxBUSD()">Max</button></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-sm-12 mt-3 d-flex justify-content-center">
+                                    <span><button type="button" class="btnprimary" id="investButton" onclick="stakeM()">Invest</button></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FINE MINT -->
+
+                <!-- NFT -->
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                    <h3 class="title-header mt-2">MINT NFT DRAGONFIRE</h3>
+                    <div class="mycontainer2 mt-1">
+                        <p> Stake DragonFire to earn more DragonFire (4 DragonFire a day for every 100</p>
+                        <hr style="background-image: linear-gradient(266.61deg, #121316 -1.47%, #c29436  46.7%, #121316 99.87%);">
+                        <div id="carouselExampleIndicators" class="carousel slide mt-3" data-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="assets/nft/1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/2.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/3.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/4.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/5.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/6.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/7.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/8.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/9.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/10.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/11.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/12.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/13.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/14.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/15.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/6.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/17.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/18.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/19.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/20.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/21.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/22.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/23.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/24.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/25.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/26.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/27.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/28.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/29.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/30.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/31.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/32.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/33.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/34.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/35.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/36.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/37.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/38.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/39.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/40.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/41.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/42.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/43.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/44.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/45.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/46.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/47.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/48.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/49.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/nft/50.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                        <hr class="my-3" style="background-image: linear-gradient(266.61deg, #121316 -1.47%, #c29436  46.7%, #121316 99.87%);">
+                        <span><button type="button" class="btnprimary mx-auto"><a href="https://app.airnfts.com/creators/0xEDbf459A0Ba0F668a074C1659A0E38664aae0BcF" style="color: white;">Buy</a></button></span>
+                    </div>
+                </div>
+                <!-- FINE NFT -->
+            </div>
+        </div>
+
+        <div class="row banner-info Mcontainer mydiv">
+            <!-- STAKE DRAGONFIRE-->
+            <div class="col-lg-6 col-md-12 col-sm-12 text-center mt-5">
+                <h3 class="title-header mt-2">STAKE DragonFire</h3>
+                <div class="mycontainer2 mt-1">
+                    <p> Stake DragonFire to earn more DragonFire (4 DragonFire a day for every 100 DragonFire staked). You can stake as many time as you want. You can unstake your DragonFire after 7 days.
+                    </p>
+                    <hr>
+                    <div class="row">
+                        <div class="col-6 my-2">
+                            <b><h7>APR</h7></b>
+                        </div>
+                        <div class="col-6 my-2" id="APY_T">
+                            <span><b><h7>...</h7></b></span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-6 my-2">
+                            <b><h7>Stake</h7></b>
+                        </div>
+                        <div class="col-6 my-2" id="user-token-staked">
+                            <span><b><h7>...</h7></b></span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-6 my-2">
+                            <b><h7>Staked</h7></b>
+                        </div>
+                        <div class="col-6 my-2" id="total-token-staked">
+                            <span><b><h7>...</h7></b></span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row my-3">
+                        <div class="col-12">
+                            <h5 class="mb-2">DragonFire Earned</h5>
+                        </div>
+                        <div class="col-12">
+                            <h5><span id="user-unClaimed-T"><b>...</b></span></h5>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="col-12 my-2" id="time-tounstake"><p><span>...</b></span></p></div>
+                    <hr style="background-image: linear-gradient(266.61deg, #121316 -1.47%, #c29436  46.7%, #121316 99.87%);">
+                    <div class="row my-4">
+                        <div class="col-6 d-flex justify-content-end">
+                            <button type="button" class="btnprimary" id="claimTButton">Claim</button>
+                        </div>
+                        <div class="col-6 d-flex justify-content-start">
+                            <button type="button" class="btnprimarySpe" id="unstakeButton">Unstake</button>
+                        </div>
+                    </div>
+                    <hr class="my-3" style="background-image: linear-gradient(266.61deg, #121316 -1.47%, #c29436  46.7%, #121316 99.87%);">
+                    <div class="row d-flex justify-content-center my-4">
+                        <h5>DragonFire Balance:<b> <span id="user-token-balance-1"><b>...</b></span></b></h5>
+                        <div class="col-12">
+                            <hr class="my-3">
+                        </div>
+                        <div>
+                            <p class="mt-1">There is no minimum to stake</p>
+                            <div class="row">
+                                <div class="col-7">
+                                    <div class="deposit-block">
+                                        <div class="amount-field">
+                                            <input type="number" class="amount-input" value="1" min="0" id="input-2"/>
+                                            <span><button class="amount-field-button" id="maxAmountButton" onclick="SetMaxBUSDToken()">Max</button></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-5">
+                                    <span><button type="button" class="btnprimary" id="stakeButton" onclick="stakeT('#input-2')">Stake</button></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FINE DRAGONFIRE -->
+
+            <!-- STAKE NFT-->
+            <div class="col-lg-6 col-md-12 col-sm-12 text-center mt-5">
+                <h3 class="title-header mt-2">STAKE NFT DragonFire</h3>
+                <div class="mycontainer2 mt-1">
+                    <p> Stake DragonFire to earn more DragonFire (4 DragonFire a day for every 100 DragonFire staked). You can stake as many time as you want. You can unstake your DragonFire after 7 days.
+                    </p>
+                    <hr>
+                    <div class="row">
+                        <div class="col-6 my-2">
+                            <b><h7>APR</h7></b>
+                        </div>
+                        <div class="col-6 my-2" id="APY_T">
+                            <span><b><h7>...</h7></b></span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-6 my-2">
+                            <b><h7>Stake</h7></b>
+                        </div>
+                        <div class="col-6 my-2" id="user-token-staked">
+                            <span><b><h7>...</h7></b></span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-6 my-2">
+                            <b><h7>Staked</h7></b>
+                        </div>
+                        <div class="col-6 my-2" id="total-token-staked">
+                            <span><b><h7>...</h7></b></span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row my-3">
+                        <div class="col-12">
+                            <h5 class="mb-2">DragonFire Earned</h5>
+                        </div>
+                        <div class="col-12">
+                            <h5><span id="user-unClaimed-T"><b>...</b></span></h5>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="col-12 my-2" id="time-tounstake"><p><span>...</b></span></p></div>
+                    <hr style="background-image: linear-gradient(266.61deg, #121316 -1.47%, #c29436  46.7%, #121316 99.87%);">
+                    <div class="row my-4">
+                        <div class="col-6 d-flex justify-content-end">
+                            <button type="button" class="btnprimary" id="claimTButton">Claim</button>
+                        </div>
+                        <div class="col-6 d-flex justify-content-start">
+                            <button type="button" class="btnprimarySpe" id="unstakeButton">Unstake</button>
+                        </div>
+                    </div>
+                    <hr class="my-3" style="background-image: linear-gradient(266.61deg, #121316 -1.47%, #c29436  46.7%, #121316 99.87%);">
+                    <div class="row d-flex justify-content-center my-4">
+                        <h5>DragonFire Balance:<b> <span id="user-token-balance-1"><b>...</b></span></b></h5>
+                        <div class="col-12">
+                            <hr class="my-3">
+                        </div>
+                        <div>
+                            <p class="mt-1">There is no minimum to stake</p>
+                            <div class="row">
+                                <div class="col-7">
+                                    <div class="deposit-block">
+                                        <div class="amount-field">
+                                            <input type="number" class="amount-input" value="1" min="0" id="input-2"/>
+                                            <span><button class="amount-field-button" id="maxAmountButton" onclick="SetMaxBUSDToken()">Max</button></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-5">
+                                    <span><button type="button" class="btnprimary" id="stakeButton" onclick="stakeT('#input-2')">Stake</button></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FINE NFT -->
+            
+            <!-- REFFERAL -->
+            <div class="col-lg-6 col-md-12 col-sm-12 text-center mt-5">
+                <h2 class="title-header">REFERRAL</h2>
+                <div class="mycontainer3 mt-2">
+                    <h6 class="title-footer-dashboard mb-3"> 
+                        Your Referral Link: <input type="text" value="..." id="ref-link"> <button class="btn-copy" onclick="copyToClipboard('#ref-link')"></button><span class="title-copy" id="copiedSuccessfully" style="display: none;">Copied successfully !</span>
+                    </h6>
+                    <hr class="my-3">
+                    <div class="row">
+                        <div class="col-6">
+                            <h6>Referral Earned Available</h6>
+                            <h6><b id="referral-available">...</b></h6>
+                        </div>
+                        <div class="col-6">
+                            <h6>Total Referral Earned</h6>
+                            <h6><b id="referral-earned">...</b></h6>
+                        </div>
+                        <div class="col-12 my-2">
+                        </div>
+                        <div class="col-6">
+                            <h6>Total Referral Withdrawn</h6>
+                            <h6><b id="referral-withdrawn">...</b></h6>
+                        </div>
+                        <div class="col-6">
+                            <h6>Total Referrals</h6>
+                            <h6><b id="total-referrals">...</b></h6>
+                        </div>
+                    </div>
+                    <hr class="my-3" style="background-image: linear-gradient(266.61deg, #121316 -1.47%, #c29436  46.7%, #121316 99.87%);">
+                    <div class="col-12">
+                        <button type="button" class="btn-secondary mx-auto" id="withdraw-referral-btn">Withdraw</button>
+                    </div>
+                    <hr class="my-3" style="background-image: linear-gradient(266.61deg, #121316 -1.47%, #c29436  46.7%, #121316 99.87%);">
+                    <div class="row my-3">
+                        <div class="col-12">
+                            <b><h5 class="mb-3">Refer People, Earn BUSD:</h5></b>
+                            <b><h7>5% from each level 1 referral deposits</h7></b> 
+                            <br>
+                            <b><h7>3% from each level 2 referral deposits</h7></b>
+                            <br>
+                            <b><h7>2% from each level 3 referral deposits</h7></b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- REFFERAL -->
+
+            <!-- AIRDROP -->
+            <div class="col-lg-6 col-md-12 col-sm-12 text-center mt-5">
+                <h2 class="title-header">AIRDROP</h2>
+                <div class="mycontainer3 mt-2">
+                    Complete the challenges to get airdrop <br> You can receive 100 DragonFire every 7 days
+                    <hr class="my-3">
+                    <div class="row">
+                        <div class="col-lg-4" id="airdrop-c-1">Have at least <b>...</b> BUSD in Stake<span><br>❌</span>
+                        </div>
+                        <div class="col-lg-4" id="airdrop-c-2">7 days since the last airdrop claim<span><br>❌</span>
+                        </div>
+                        <div class="col-lg-4" id="airdrop-c-3">Have 5 <br>  more referrals<span><br>❌</span>
+                        </div>
+                        <div class="col-12 my-3">
+                            <hr>
+                        </div>
+                        <div class="col-8">
+                            <h4>Available for Airdrop</h4>
+                        </div>
+                        <div class="col-4">
+                            <h4><span id="available-airdrop"><b>0</b></span></h4>
+                        </div>
+                        <div class="col-12">
+                            <hr class="my-3" style="background-image: linear-gradient(266.61deg, #121316 -1.47%, #c29436  46.7%, #121316 99.87%);">
+                        </div>
+                        <div class="col-12">
+                            <button type="button" class="btn-secondary" id="claimAButton">Claim</button>
+                        </div>
+                        <div class="col-12">
+                            <hr class="my-3" style="background-image: linear-gradient(266.61deg, #121316 -1.47%, #c29436  46.7%, #121316 99.87%);">
+                        </div>
+                        <div class="col-12 my-3">
+                            <h6> In the coming days there will be many giveaway</h6>
+                            <h6 class="mt-2">You will find them soon on the platform!</h6>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <!-- AIRDROP -->
+
+            <!-- SELL -->
+            <div class="col-lg-12 col-md-12 col-sm-12 text-center mt-5">
+                <h3 class="title-header mt-2">SELL DragonFire</h3>
+                <div class="mycontainer2 mt-1">
+                    <p> Here you can sell your DragonFire if you do not plan to use those in other DragonFire games
+                    </p>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-6 my-4">
+                            <h5>DragonFire Price</h5>
+                        </div>
+                        <div class="col-lg-6 my-4">
+                            <h5><span id="token-price"><b>...</b></span></h5>
+                        </div>
+                    </div>
+                    <hr class="mb-4">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-6">
+                            <h5>DragonFire Balance:<b> <span id="user-token-balance-2"><b>...</b></span></b></h5>
+                        </div>
+                        <div class="col-lg-12 my-3">
+                            <div class="row justify-content-center">
+                                <div class="amount-field col-lg-2 col-sm-12 mt-2">
+                                    <input type="number" class="amount-input" value="1" min="0" id="input-3"/>
+                                    <button class="amount-field-button" onclick="SetMaxBUSDTokenToSell()">Max</button>
+                                </div>
+                                <div class="col-lg-2 col-sm-12 mt-2 d-flex justify-content-center">
+                                    <button type="button" class="btnprimary" id="sellButton" onclick="sell('#input-3')">Sell</button>
+                                </div>
+                            </div>                        
+                        </div>
+                        <div class="col-lg-12 my-3">
+                            <b><h6>You will get:</h6></b>
+                            <h5 id="sell-calc"><b>0.00</b></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FINE SELL -->
+        </div>
+
+        <!-- Tokenomics -->
+        <section style="background-color: #000;" id="token" class="iq-Tranding-platform light-bg overview-block-ptb mt-5 mx-auto">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="heading-title">
+                            <h2 class="title iq-tw-6">Tokenomics</h2>
+                            <p> Use BUSD to earn DragonFire Tokens to stake (or sell for BUSD)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="heading-title2">
+                            <small class="iq-font-green">Token Information</small>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <td>Token Name:</td>
+                                        <td>DragonFire</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Token Symbole:</td>
+                                        <td>DragonFire</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Network:</td>
+                                        <td>Binance Smart Chain (BSC)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Token Standard:</td>
+                                        <td>BEP20</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Total Supply:</td>
+                                        <td id="limit-supply">2,000,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Circulation Supply:</td>
+                                        <td class="total-supply">...</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Available Supply:</td>
+                                        <td class="available-supply">...</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Contract:</td>
+                                        <td>
+                                            <a style="color: #c29436" href="https://bscscan.com/address/0x08aF0ecc3B8194809730bA7013C637c7e16D2f9c" target="_blank">0x08aF0ecc3B8194809730bA7013C637c7e16D2f9c</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <p>
+                            <span class="orange">Note:</span> Basically theese fees are useful to support and make our project better day by day
+                        </p>
+                    </div>                                    
+                </div>
+            </div>
+        </section>
+        <!-- Tokenomics END -->
+        
+        <!-- MARKETING -->
+        <section id="product" class="overview-block-pt mx-auto">
+            <div class="container">
+                <div class="row flex-row-reverse">
+                    <div class="col-lg-5 align-self-center">
+                        <img src="assets/images/banner/banner-img.svg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-7 align-self-center">
+                        <div class="heading-title left">
+                            <h2 class="iq-tw-6"><span class="icon-fix-weight">👨‍🚀</span> For Community Users</h2>
+                        </div>
+                        <p>The DragonFire Project aims to create
+                            sustainable income before the long term
+                            accessible to all investors.
+                            <br>
+                            <br>You can find us in the channels
+                            mentioned below</p>
+                            <p>
+                                <h7>Telegram: <a style="color: #c29436;" href="https://t.me/DragonFire0" target="_blank">https://t.me/DragonFire0</a></h7><br>
+                                <h7>Audit: <a style="color: #c29436;" href="https://hazecrypto.net/audit/DragonFire" target="_blank">Coming soon...</a></h7><br>
+                                <h7>Dapp Radar: <a style="color: #c29436;" href="https://dappradar.com/binance-smart-chain/high-risk/DragonFire" target="_blank">Coming soon..</a></h7><br>
+                            </p>
+                            <button type="button" class="btnprimary mt-3"><a href="https://www.DragonFire.finance/contact" target="_blank"><span>Contacts</span></a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="overview-block-ptb mx-auto">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 align-self-center">
+                        <img src="assets/images/banner/index-about.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-7 align-self-center">
+                        <div class="heading-title left">
+                            <h2 class="iq-tw-6"><span class="icon-fix-weight">🧙</span>Promoters</h2>
+                        </div>
+                            <h7>The Defi Guys : <a style="color: #c29436;" href="https://youtu.be/6_D2NEG-BTk" target="_blank">Coming soon...</a></h7><br>
+                            <h7>Murdoc DEFI : <a style="color: #c29436;" href="https://youtu.be/MFpEhbisjCw" target="_blank">Coming soon...</a></h7><br>
+                            <h7>Jack'sPassiveIncome : <a style="color: #c29436;" href="https://www.youtube.com/watch?v=6DHu57MyypA&t=3s" target="_blank">Coming soon...</a></h7><br>
+                            <h7>Crypto Kavi : <a style="color: #c29436;" href="https://youtu.be/giqVeqMWP-w" target="_blank">Coming soon...</a></h7><br>
+                            <h7>Predir Capital : <a style="color: #c29436;" href="https://youtu.be/6U8zB7HV_S4" target="_blank">Coming soon...</a></h7><br>
+                            <h7>CryptoLifestyle : <a style="color: #c29436;" href="https://youtu.be/y2s_5-BTwg0" target="_blank">Coming soon...</a></h7><br>
+                            <h7>Felix Monopoly : <a style="color: #c29436;" href="https://youtu.be/zz0sOKRuhPg" target="_blank">Coming soon...</a></h7><br>
+                            <button type="button" class="btnprimary mt-3"><a style="color: #c29436;" href="https://www.DragonFire.finance/contact" target="_blank"><span>Contacts</span></a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- MARKETING  -->
+        
+        <!-- FOOTER -->
+        <div class="container"><hr></div>
+        <div class="container-fluid iq-pall my-5">
+            <div class="footer-bottom iq-ptb-20 dark-bg ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <div class="iq-copyright iq-font-white">© Copyright 2021 DragonFire Developed with <a target="_blank" href="mailto:postmaster@DragonFire.finance">FireCrypto</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fine FOOTER -->
+
+        <!-- back-to-top -->
+        <div id="back-to-top">
+            <a class="top" id="top" href="index.html#top"><i class="fa fa-angle-double-up" aria-hidden="true"></i> </a>
+        </div>
+        <!-- back-to-top End -->
+        
+        <!-- bubbly -->
+        <canvas id="canvas1"></canvas>
+        <!-- bubbly End -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="cgi-bin/plugins/jquery-min.js"></script>
+        <script src="cgi-bin/plugins/jquery.numeric.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="cgi-bin/plugins/bootstrap.min.js"></script>
+        <!-- All-plugins JavaScript -->
+        <script src="cgi-bin/plugins/all-plugins.js"></script>
+        <!-- bubbly JavaScript -->
+        <script src="cgi-bin/plugins/bubbly-bg.js"></script>
+        <!-- wave JavaScript -->
+        <script src='cgi-bin/plugins/wave/three.min.js'></script>
+        <script src='cgi-bin/plugins/wave/Projector.js'></script>
+        <script src='cgi-bin/plugins/wave/CanvasRenderer.js'></script>
+        <script src="cgi-bin/plugins/wave/index.js"></script>
+
+        <!-- Custom JavaScript -->
+        <script type="text/javascript" src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/web3modal@latest/dist/index.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider@latest/dist/umd/index.min.js"></script>
+        <script src="cgi-bin/plugins/ethers-5.2.umd.min.js" type="application/javascript"></script>
+        <script src="cgi-bin/plugins/rxjs.min.js"></script>
+        <!-- <script src="js/index_202201082031.js"></script> -->
+        <script src="abi/contract.abi.js"></script>
+        <script src="cgi-bin/custom.js"></script>
+        <script src="cgi-bin/subjects.js"></script>
+        <script src="cgi-bin/observables.js"></script>
+        <script src="cgi-bin/observers.js"></script>
+        <script src="cgi-bin/dapp.js"></script>
+    </body>
+
+</html>
