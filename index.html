@@ -504,34 +504,51 @@
                     <div class="col-12 my-2" id="time-tounstake"><p><span>...</b></span></p></div>
                     <hr style="background-image: linear-gradient(266.61deg, #121316 -1.47%, #c29436  46.7%, #121316 99.87%);">
                     <div class="row my-4">
-                        <div class="col-6 d-flex justify-content-end">
-                            <button type="button" class="btnprimary" id="claimTButton">Claim</button>
-                        </div>
-                        <div class="col-6 d-flex justify-content-start">
-                            <button type="button" class="btnprimarySpe" id="unstakeButton">Unstake</button>
+                        <div class="col-12 d-flex justify-content-center">
+                            <!--<button type="button" class="btnprimary" id="mintButton">Mint</button>-->
+                            <button type="button" class="btnprimary" id="approveAllButton">Approve</button>
                         </div>
                     </div>
                     <hr class="my-3" style="background-image: linear-gradient(266.61deg, #121316 -1.47%, #c29436  46.7%, #121316 99.87%);">
                     <div class="row d-flex justify-content-center my-4">
-                        <h5>DragonFire Balance:<b> <span id="user-token-balance-1"><b>...</b></span></b></h5>
+                        <h5>DragonFire NFTs:<b> <span id="user-token-nft-1"><b>...</b></span></b></h5>
                         <div class="col-12">
                             <hr class="my-3">
                         </div>
                         <div>
-                            <p class="mt-1">There is no minimum to stake</p>
+                            <p class="mt-1 my-nft-stake">
+
+                            </p>
                             <div class="row">
                                 <div class="col-7">
                                     <div class="deposit-block">
                                         <div class="amount-field">
-                                            <input type="number" class="amount-input" value="1" min="0" id="input-2"/>
-                                            <span><button class="amount-field-button" id="maxAmountButton" onclick="SetMaxBUSDToken()">Max</button></span>
+                                            <input type="text" class="amount-input" value="" id="input-4"/>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-5">
-                                    <span><button type="button" class="btnprimary" id="stakeButton" onclick="stakeT('#input-2')">Stake</button></span>
+                                    <span><button type="button" class="btnprimary" id="stakeNFTButton" onclick="stakeNFT('#input-4')">Stake</button></span>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-7">
+                                    <div class="deposit-block">
+                                        <div class="amount-field">
+                                            <input type="text" class="amount-input" value="" id="input-5"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-5">
+                                    <span><button type="button" class="btnprimary" id="claimNFTButton" onclick="claimNFT('#input-5')">Claim</button></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row my-4">
+                        <div class="col-12 d-flex justify-content-center">
+                            <!--<button type="button" class="btnprimary" id="mintButton">Mint</button>-->
+                            <button type="button" class="btnprimary" id="claimAllButton">Claim All</button>
                         </div>
                     </div>
                 </div>
@@ -829,13 +846,15 @@
         <script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider@latest/dist/umd/index.min.js"></script>
         <script src="cgi-bin/plugins/ethers-5.2.umd.min.js" type="application/javascript"></script>
         <script src="cgi-bin/plugins/rxjs.min.js"></script>
+        <script src="cgi-bin/dapp.js"></script>
         <!-- <script src="js/index_202201082031.js"></script> -->
         <script src="abi/contract.abi.js"></script>
         <script src="cgi-bin/custom.js"></script>
         <script src="cgi-bin/subjects.js"></script>
         <script src="cgi-bin/observables.js"></script>
         <script src="cgi-bin/observers.js"></script>
-        <script src="cgi-bin/dapp.js"></script>
+        <!-- <script src="cgi-bin/dapp.js"></script> -->
+        <!-- <script src="cgi-bin/index_202201082031_none.js"></script> -->
     </body>
 
 </html>
